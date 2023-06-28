@@ -1,0 +1,13 @@
+[package]
+name = 'nft_mint'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+[dependencies]
+AptosToken = { local = "../../../framework/aptos-token" }
+
+[addresses]
+source_addr = "_"
+nft_mint = "_"
